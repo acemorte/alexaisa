@@ -13,7 +13,7 @@
             "intent": "Answer",
             "slots": [
                 {
-                    "name": "A or B",
+                    "name": "A B C",
                     "type": "ANSWER_LIST"
                 }
             ]
