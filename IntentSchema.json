@@ -1,0 +1,37 @@
+{
+    "intents": [
+        {
+            "intent": "Topic",
+            "slots": [
+                {
+                    "name": "Subject",
+                    "type": "TOPIC_LIST"
+                }
+            ]
+        },
+        {
+            "intent": "Answer",
+            "slots": [
+                {
+                    "name": "A B C",
+                    "type": "ANSWER_LIST"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.YesIntent"
+        },
+        {
+            "intent": "AMAZON.NoIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        }
+    ]
+}
