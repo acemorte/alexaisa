@@ -25,22 +25,16 @@ exports.handler = function (event, context, callback) {
 };
 
 var handlers = {
-	'Hello Mother Fucker': function () {
+	'Starting Intent': function () {
 		this.emit(':tell', 'Hello Mother Fucker!');
 this.emit(':ask', 'What the fuck do you want?');}}
 
 var handlers = {
-	' I need your help': function () {
-		this.emit(':ask', 'What the fuck do you need now?');
+	' flash me alexa': function () {
+		this.emit(':tell', 'ok starting now');
 	}
 };
 
-var handlers = {
-	'help me study': function () {
-		this.emit(':tell', 'I rather help the wall itll learn faster ');
-		this.emit(':ask ', ' the abc again?');
-	}
-}
 
 var states = {
 	STUDYMODE: '_STUDYMODE',
